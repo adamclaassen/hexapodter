@@ -1,7 +1,11 @@
 class Hexapodter{
 	public:
-		void walkForwards(int speed){
-			
-		}
+		void walkFwd();
+		void walkBkwd();
+		void walkLeft();
+		void walkRight();
+		void spinLeft();
+		void spinRight();
+		
 	private:
 }

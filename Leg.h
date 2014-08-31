@@ -8,6 +8,9 @@ class Leg{
 		void unfold();
 		void setPos(uint8_t radPcnt, uint8_t angPcnt);
 		void setPos(uint8_t heightPcnt, uint8_t angPcnt);
+		void setHeight(uint8_t heightPcnt);
+		void setRad(uint8_t radPcnt);
+		void setAng(uint8_t angPcnt);
 		uint8_t getRadPcnt();
 		uint8_t getAngPcnt();
 		/* methods to be implemented later
@@ -19,11 +22,11 @@ class Leg{
 		void getLedOuter(uint8_t R, uint8_t G, uint8_t B);
 		*/
 	private:
-		void setJointInner(uint8_t position);
-		void setJointMiddle(uint8_t position);
-		void setJointOuter(uint8_t position);
-		uint8_t getJointInner();
-		uint8_t getJointMiddle();
-		uint8_t getJointOuter();
+		void _setJointInner(uint8_t position);
+		void _setJointMiddle(uint8_t position);
+		void _setJointOuter(uint8_t position);
+		uint8_t _getJointInner();
+		uint8_t _getJointMiddle();
+		uint8_t _getJointOuter();
 
 }
