@@ -3,6 +3,14 @@
 */
 class Leg{
 	public:
+		void Leg(
+			uint8_t innerServoPin, 
+			uint8_t middleServoPin, 
+			uint8_t outerServoPin, 
+			uint8_t innerLedAddr, 
+			uint8_t middleLedAddr, 
+			uint8_t outerLedAddr
+			);
 		void up();
 		void down();
 		void fwd();

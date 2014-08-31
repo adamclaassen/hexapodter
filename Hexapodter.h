@@ -3,6 +3,7 @@
 */
 class Hexapodter{
 	public:
+		void Hexapodter();
 		void walkFwd();
 		void walkBkwd();
 		void walkLeft();
