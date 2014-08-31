@@ -1,3 +1,6 @@
+/*
+@author Adam Claassen, claassenadam@gmail.com
+*/
 class Hexapodter{
 	public:
 		void walkFwd();
@@ -6,6 +9,6 @@ class Hexapodter{
 		void walkRight();
 		void spinLeft();
 		void spinRight();
-		
+
 	private:
-}
+};

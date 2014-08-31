@@ -1,3 +1,6 @@
+/*
+@author Adam Claassen, claassenadam@gmail.com
+*/
 class Leg{
 	public:
 		void up();
@@ -6,8 +9,6 @@ class Leg{
 		void back();
 		void fold();
 		void unfold();
-		void setPos(uint8_t radPcnt, uint8_t angPcnt);
-		void setPos(uint8_t heightPcnt, uint8_t angPcnt);
 		void setHeight(uint8_t heightPcnt);
 		void setRad(uint8_t radPcnt);
 		void setAng(uint8_t angPcnt);
@@ -29,4 +30,4 @@ class Leg{
 		uint8_t _getJointMiddle();
 		uint8_t _getJointOuter();
 
-}
+};
